@@ -1,4 +1,5 @@
-const writeDataInFile = require("./writeDataInFile");
-const readContactsFromFile = require("./readContactsFromFile");
+const { Contact } = require("./contact");
 
-module.exports = { writeDataInFile, readContactsFromFile };
+module.exports = {
+  Contact,
+};
